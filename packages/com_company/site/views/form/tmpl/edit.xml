@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<metadata>
+	<layout title="COM_COMPANY_FORM_VIEW_DEFAULT_TITLE" option="COM_COMPANY_FORM_VIEW_DEFAULT_OPTION">
+		<message>
+			<![CDATA[COM_COMPANY_FORM_VIEW_DEFAULT_DESC]]>
+		</message>
+	</layout>
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_company/models/fields">
+			<field name="c_id" type="modal_employees" label="COM_COMPANY_FIELD_SELECT_EDIT_LABEL" description="COM_COMPANY_FIELD_SELECT_EDIT_DESC" />
+		</fieldset>
+	</fields>
+</metadata>
