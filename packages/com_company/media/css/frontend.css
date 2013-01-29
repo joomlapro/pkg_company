@@ -1,0 +1,50 @@
+/* Employees */
+.employees {
+	text-align: center;
+	color: #444;
+}
+
+.employees h3 {
+	font-size: 14px;
+	line-height: 14px;
+	height: 28px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+.employees span {
+	font-size: 11px;
+}
+
+.employees p {
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.employees hr {
+	margin: 10px 0;
+}
+
+.employees .image {
+	margin: -15px -15px 0 -15px;
+}
+
+.employees .social {
+	float: none;
+}
+
+.employees .social li {
+	float: none;
+	display: inline-block;
+	margin: 0;
+	padding: 0 3px;
+}
+
+.employees .social a {
+	color: #666;
+}
+
+.employees .social a:hover {
+	color: #007B32;
+}
